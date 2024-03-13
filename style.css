@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+}
+
+:root {
+  --primary-color: #3878ff;
+  --secondary-color: #0b132a;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+a {
+  text-decoration: none;
+  color: #0b132a;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.linkWrapper a {
+  color: #4f5665;
+  padding: 20px;
+}
+
+.accountForm a {
+  padding: 8px;
+  color: var(--primary-color);
+}
+
+.accountForm a.signUp {
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+}
+
+.accountForm a.signIn {
+  color: var(--secondary-color);
+}
+
+.heroSect {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.heroSect .txtArea {
+  width: 50%;
+  margin: auto;
+}
+
+.heroSect .heroSectImg img {
+  width: 500px;
+}
+
+.txtArea a.getStarted {
+  padding: 10px;
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 0px -12px 30px,
+    #3877ffc2 0px 12px 72px, #3877ff75 0px 12px 13px, #3877ff75 0px -3px 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  background-color: var(--primary-color);
+  color: white;
+  transition: 0.3s;
+}
+
+.txtArea a.getStarted:hover {
+  padding: 10px;
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 0px -12px 30px,
+    #3877ffc2 0px 12px 72px, #3877ff75 0px 12px 13px, #3877ff75 0px -3px 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  border: 2px solid var(--primary-color);
+  background-color: rgb(248, 248, 248);
+  color: #3878ff;
+}
+
+.contentSection {
+  display: flex;
+  justify-content: center;
+}
+
+.users,
+.locations,
+.servers {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 20px;
+}
+
+.users,
+.locations,
+.servers img {
+  padding: 30px;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.users,
+.locations {
+  border-right: 3px solid #cacaca;
+}
+
+.FeatureWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FeatureWrapper .listItems {
+  line-height: 30px;
+}
+
+.FeatureWrapper .featuringText {
+  line-height: 50px;
+}
+
+.FeatureWrapper .featuringImg {
+  width: 550px;
+}
+
+.FeatureWrapper .featuringImg img {
+  width: 100%;
+}
+
+.subscriptionPlans .freePlan {
+  background-color: #fff;
+  padding: 50px;
+  line-height: 29px;
+}
+
+.subscriptionPlans {
+  display: flex;
+  justify-content: center;
+}
+
+.freePlan p img {
+  padding-right: 12px;
+}
+
+.select a {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.select:hover a {
+  color: white;
+}
+
+.select:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.select {
+  padding: 5px 30px;
+  display: flex;
+  border-radius: 50px;
+  width: 150px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid var(--primary-color);
+}
+
+.netWork {
+  text-align: center;
+}
+
+.netWork h1,
+.netWork p,
+.netWork img {
+  margin-bottom: 20px;
+}
+
+.cardSection {
+  display: flex;
+}
+
+.personName,
+.personArea {
+  display: inline-block;
+}
+
+a.subscribe {
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+}
+
+.newsLetter {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.newsLetter input {
+  width: 400px;
+  border: 2px solid var(--primary-color);
+  border-radius: 6px;
+  padding: 10px;
+}
+
+p.main {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.logo img {
+  padding: 10px;
+}
+
+.linksImages a {
+  margin: -15px;
+}
+
+.footer {
+  padding: 30px;
+}
+
+.footer .linksImages img {
+  margin-bottom: -30px;
+  padding: 10px;
+}
+
+.copyRight {
+  color: grey;
+}
+
+.linksSect {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
+
+.infoSect {
+  display: flex;
+  flex-direction: column;
+}
+
+.linksSect {
+  line-height: 35px;
+}
+
+.linksSect .listings1 {
+  padding: 30px;
+}
+
+.footer .infoNetONE {
+  width: 440px;
+}
